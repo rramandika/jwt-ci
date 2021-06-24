@@ -1,0 +1,403 @@
+CRITICAL - 2021-06-24 07:04:42 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(228): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(180): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\jwt-ci\system\bootstrap.php(157): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\jwt-ci\spark(46): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-06-24 07:05:07 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(228): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(180): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\jwt-ci\system\bootstrap.php(157): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\jwt-ci\spark(46): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-06-24 07:06:08 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(228): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(180): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\jwt-ci\system\bootstrap.php(157): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\jwt-ci\spark(46): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-06-24 07:06:37 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(228): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(180): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\jwt-ci\system\bootstrap.php(157): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\jwt-ci\spark(46): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-06-24 07:06:58 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(228): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(180): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\jwt-ci\system\bootstrap.php(157): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\jwt-ci\spark(46): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-06-24 07:09:37 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(228): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(180): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\jwt-ci\system\bootstrap.php(157): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\jwt-ci\spark(46): require('C:\\xampp\\htdocs...')
+#4 {main}
+ERROR - 2021-06-24 00:31:40 --> Column 'nama' cannot be null
+CRITICAL - 2021-06-24 00:31:41 --> Column 'nama' cannot be null
+#0 C:\xampp\htdocs\jwt-ci\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `us...')
+#1 C:\xampp\htdocs\jwt-ci\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\jwt-ci\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\jwt-ci\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\jwt-ci\app\Models\Auth_model.php(14): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\jwt-ci\app\Controllers\Auth.php(54): App\Models\Auth_model->register(Array)
+#6 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(928): App\Controllers\Auth->register()
+#7 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\jwt-ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\jwt-ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2021-06-24 00:33:55 --> Undefined index: last_name
+#0 C:\xampp\htdocs\jwt-ci\app\Controllers\Auth.php(96): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 96, Array)
+#1 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(928): App\Controllers\Auth->login()
+#2 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jwt-ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jwt-ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-06-24 00:34:21 --> Class 'Firebase\JWT\JWT' not found
+#0 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(928): App\Controllers\Auth->login()
+#1 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\jwt-ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\jwt-ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-06-24 00:34:38 --> Class 'Firebase\JWT\JWT' not found
+#0 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(928): App\Controllers\Auth->login()
+#1 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\jwt-ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\jwt-ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-06-24 00:35:24 --> Class 'Firebase\JWT\JWT' not found
+#0 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(928): App\Controllers\Auth->login()
+#1 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\jwt-ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\jwt-ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-06-24 00:39:10 --> Undefined index: first_name
+#0 C:\xampp\htdocs\jwt-ci\app\Controllers\Auth.php(97): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 97, Array)
+#1 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(928): App\Controllers\Auth->login()
+#2 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jwt-ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jwt-ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-06-24 00:40:12 --> Class 'Firebase\JWT\JWT' not found
+#0 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(928): App\Controllers\Auth->login()
+#1 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\jwt-ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\jwt-ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-06-24 00:42:18 --> require(C:\xampp\htdocs\jwt-ci\app\Controllers/../vendor/autoload.php): failed to open stream: No such file or directory
+#0 C:\xampp\htdocs\jwt-ci\app\Controllers\Auth.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(C:\\xamp...', 'C:\\xampp\\htdocs...', 5, Array)
+#1 C:\xampp\htdocs\jwt-ci\app\Controllers\Auth.php(5): require()
+#2 C:\xampp\htdocs\jwt-ci\system\Router\Router.php(566): include_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\jwt-ci\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('auth/login')
+#4 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(809): CodeIgniter\Router\Router->handle('auth/login')
+#5 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#6 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\jwt-ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\jwt-ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-06-24 00:43:35 --> require(C:\xampp\htdocs\jwt-ci\app\Controllers/vendor/autoload.php): failed to open stream: No such file or directory
+#0 C:\xampp\htdocs\jwt-ci\app\Controllers\Auth.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(C:\\xamp...', 'C:\\xampp\\htdocs...', 5, Array)
+#1 C:\xampp\htdocs\jwt-ci\app\Controllers\Auth.php(5): require()
+#2 C:\xampp\htdocs\jwt-ci\system\Router\Router.php(566): include_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\jwt-ci\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('auth/login')
+#4 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(809): CodeIgniter\Router\Router->handle('auth/login')
+#5 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#6 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\jwt-ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\jwt-ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-06-24 00:49:09 --> Class 'Firebase\JWT\JWT' not found
+#0 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(928): App\Controllers\Auth->login()
+#1 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\jwt-ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\jwt-ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-06-24 00:51:04 --> require(C:\xampp\htdocs\jwt-ci\app\Controllers\vendor\autoload.php): failed to open stream: No such file or directory
+#0 C:\xampp\htdocs\jwt-ci\app\Controllers\Auth.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(C:\\xamp...', 'C:\\xampp\\htdocs...', 5, Array)
+#1 C:\xampp\htdocs\jwt-ci\app\Controllers\Auth.php(5): require()
+#2 C:\xampp\htdocs\jwt-ci\system\Router\Router.php(566): include_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\jwt-ci\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('auth/login')
+#4 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(809): CodeIgniter\Router\Router->handle('auth/login')
+#5 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#6 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\jwt-ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\jwt-ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-06-24 00:51:25 --> require(C:\xampp\htdocs\jwt-ci\app\Controllers\autoload.php): failed to open stream: No such file or directory
+#0 C:\xampp\htdocs\jwt-ci\app\Controllers\Auth.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(C:\\xamp...', 'C:\\xampp\\htdocs...', 5, Array)
+#1 C:\xampp\htdocs\jwt-ci\app\Controllers\Auth.php(5): require()
+#2 C:\xampp\htdocs\jwt-ci\system\Router\Router.php(566): include_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\jwt-ci\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('auth/login')
+#4 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(809): CodeIgniter\Router\Router->handle('auth/login')
+#5 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#6 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\jwt-ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\jwt-ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-06-24 00:56:16 --> require(C:\xampp\htdocs\jwt-ci\app\Controllers\vendor\autoload.php): failed to open stream: No such file or directory
+#0 C:\xampp\htdocs\jwt-ci\app\Controllers\Auth.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(C:\\xamp...', 'C:\\xampp\\htdocs...', 5, Array)
+#1 C:\xampp\htdocs\jwt-ci\app\Controllers\Auth.php(5): require()
+#2 C:\xampp\htdocs\jwt-ci\system\Router\Router.php(566): include_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\jwt-ci\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('auth/login')
+#4 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(809): CodeIgniter\Router\Router->handle('auth/login')
+#5 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#6 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\jwt-ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\jwt-ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-06-24 00:56:54 --> require(C:\xampp\htdocs\jwt-ci\app\Controllers/../vendor/autoload.php): failed to open stream: No such file or directory
+#0 C:\xampp\htdocs\jwt-ci\app\Controllers\Auth.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(C:\\xamp...', 'C:\\xampp\\htdocs...', 5, Array)
+#1 C:\xampp\htdocs\jwt-ci\app\Controllers\Auth.php(5): require()
+#2 C:\xampp\htdocs\jwt-ci\system\Router\Router.php(566): include_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\jwt-ci\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('auth/login')
+#4 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(809): CodeIgniter\Router\Router->handle('auth/login')
+#5 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#6 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\jwt-ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\jwt-ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-06-24 00:57:25 --> require(C:\xampp\htdocs\jwt-ci\app\Controllers\vendor\autoload.php): failed to open stream: No such file or directory
+#0 C:\xampp\htdocs\jwt-ci\app\Controllers\Auth.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(C:\\xamp...', 'C:\\xampp\\htdocs...', 5, Array)
+#1 C:\xampp\htdocs\jwt-ci\app\Controllers\Auth.php(5): require()
+#2 C:\xampp\htdocs\jwt-ci\system\Router\Router.php(566): include_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\jwt-ci\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('auth/login')
+#4 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(809): CodeIgniter\Router\Router->handle('auth/login')
+#5 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#6 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\jwt-ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\jwt-ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-06-24 00:58:58 --> require(C:\xampp\htdocs\jwt-ci\app\Controllers../vendor/autoload.php): failed to open stream: No such file or directory
+#0 C:\xampp\htdocs\jwt-ci\app\Controllers\Auth.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(C:\\xamp...', 'C:\\xampp\\htdocs...', 5, Array)
+#1 C:\xampp\htdocs\jwt-ci\app\Controllers\Auth.php(5): require()
+#2 C:\xampp\htdocs\jwt-ci\system\Router\Router.php(566): include_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\jwt-ci\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('auth/login')
+#4 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(809): CodeIgniter\Router\Router->handle('auth/login')
+#5 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#6 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\jwt-ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\jwt-ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-06-24 00:59:46 --> require(\vendor\autoload.php): failed to open stream: No such file or directory
+#0 C:\xampp\htdocs\jwt-ci\app\Controllers\Auth.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(\\vendor...', 'C:\\xampp\\htdocs...', 5, Array)
+#1 C:\xampp\htdocs\jwt-ci\app\Controllers\Auth.php(5): require()
+#2 C:\xampp\htdocs\jwt-ci\system\Router\Router.php(566): include_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\jwt-ci\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('auth/login')
+#4 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(809): CodeIgniter\Router\Router->handle('auth/login')
+#5 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#6 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\jwt-ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\jwt-ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-06-24 00:59:59 --> require(C:\xampp\htdocs\jwt-ci\app\Controllers/vendor/autoload.php): failed to open stream: No such file or directory
+#0 C:\xampp\htdocs\jwt-ci\app\Controllers\Auth.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(C:\\xamp...', 'C:\\xampp\\htdocs...', 5, Array)
+#1 C:\xampp\htdocs\jwt-ci\app\Controllers\Auth.php(5): require()
+#2 C:\xampp\htdocs\jwt-ci\system\Router\Router.php(566): include_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\jwt-ci\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('auth/login')
+#4 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(809): CodeIgniter\Router\Router->handle('auth/login')
+#5 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#6 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\jwt-ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\jwt-ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-06-24 01:00:17 --> Class 'Firebase\JWT\JWT' not found
+#0 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(928): App\Controllers\Auth->login()
+#1 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\jwt-ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\jwt-ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-06-24 01:00:40 --> require(/vendor/autoload.php): failed to open stream: No such file or directory
+#0 C:\xampp\htdocs\jwt-ci\app\Controllers\Auth.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(/vendor...', 'C:\\xampp\\htdocs...', 5, Array)
+#1 C:\xampp\htdocs\jwt-ci\app\Controllers\Auth.php(5): require()
+#2 C:\xampp\htdocs\jwt-ci\system\Router\Router.php(566): include_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\jwt-ci\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('auth/login')
+#4 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(809): CodeIgniter\Router\Router->handle('auth/login')
+#5 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#6 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\jwt-ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\jwt-ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-06-24 01:00:52 --> require(vendor/autoload.php): failed to open stream: No such file or directory
+#0 C:\xampp\htdocs\jwt-ci\app\Controllers\Auth.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(vendor/...', 'C:\\xampp\\htdocs...', 5, Array)
+#1 C:\xampp\htdocs\jwt-ci\app\Controllers\Auth.php(5): require()
+#2 C:\xampp\htdocs\jwt-ci\system\Router\Router.php(566): include_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\jwt-ci\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('auth/login')
+#4 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(809): CodeIgniter\Router\Router->handle('auth/login')
+#5 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#6 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\jwt-ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\jwt-ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-06-24 01:01:00 --> Class 'Firebase\JWT\JWT' not found
+#0 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(928): App\Controllers\Auth->login()
+#1 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\jwt-ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\jwt-ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-06-24 01:01:29 --> require(C:\xampp\htdocs\jwt-ci\app\Controllers\vendor\autoload.php): failed to open stream: No such file or directory
+#0 C:\xampp\htdocs\jwt-ci\app\Controllers\Auth.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(C:\\xamp...', 'C:\\xampp\\htdocs...', 5, Array)
+#1 C:\xampp\htdocs\jwt-ci\app\Controllers\Auth.php(5): require()
+#2 C:\xampp\htdocs\jwt-ci\system\Router\Router.php(566): include_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\jwt-ci\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('auth/login')
+#4 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(809): CodeIgniter\Router\Router->handle('auth/login')
+#5 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#6 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\jwt-ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\jwt-ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-06-24 01:02:10 --> require(C:\xampp\htdocs\jwt-ci\app\Controllers\vendor\autoload.php): failed to open stream: No such file or directory
+#0 C:\xampp\htdocs\jwt-ci\app\Controllers\Auth.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(C:\\xamp...', 'C:\\xampp\\htdocs...', 5, Array)
+#1 C:\xampp\htdocs\jwt-ci\app\Controllers\Auth.php(5): require()
+#2 C:\xampp\htdocs\jwt-ci\system\Router\Router.php(566): include_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\jwt-ci\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('auth/login')
+#4 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(809): CodeIgniter\Router\Router->handle('auth/login')
+#5 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#6 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\jwt-ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\jwt-ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-06-24 01:02:27 --> Class 'Firebase\JWT\JWT' not found
+#0 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(928): App\Controllers\Auth->login()
+#1 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\jwt-ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\jwt-ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-06-24 01:03:24 --> Class 'Firebase\JWT\JWT' not found
+#0 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(928): App\Controllers\Auth->login()
+#1 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\jwt-ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\jwt-ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-06-24 01:03:27 --> Class 'Firebase\JWT\JWT' not found
+#0 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(928): App\Controllers\Auth->login()
+#1 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\jwt-ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\jwt-ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-06-24 01:04:35 --> Class 'Firebase\JWT\JWT' not found
+#0 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(928): App\Controllers\Auth->login()
+#1 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\jwt-ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\jwt-ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-06-24 01:07:30 --> Class 'Firebase\JWT\JWT' not found
+#0 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(928): App\Controllers\Auth->login()
+#1 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\jwt-ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\jwt-ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-06-24 01:07:42 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\jwt-ci\app\Controllers\Auth.php(82): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 82, Array)
+#1 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(928): App\Controllers\Auth->login()
+#2 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jwt-ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jwt-ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-06-24 01:08:01 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\jwt-ci\app\Controllers\Auth.php(82): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 82, Array)
+#1 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(928): App\Controllers\Auth->login()
+#2 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jwt-ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jwt-ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-06-24 01:08:06 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\jwt-ci\app\Controllers\Auth.php(82): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 82, Array)
+#1 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(928): App\Controllers\Auth->login()
+#2 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jwt-ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jwt-ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-06-24 01:09:46 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\jwt-ci\app\Controllers\Auth.php(80): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 80, Array)
+#1 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(928): App\Controllers\Auth->login()
+#2 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jwt-ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jwt-ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-06-24 01:10:05 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\jwt-ci\app\Controllers\Auth.php(82): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 82, Array)
+#1 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(928): App\Controllers\Auth->login()
+#2 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jwt-ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jwt-ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-06-24 01:11:41 --> Class 'Firebase\JWT\JWT' not found
+#0 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(928): App\Controllers\Auth->login()
+#1 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\jwt-ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\jwt-ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-06-24 01:11:46 --> Class 'Firebase\JWT\JWT' not found
+#0 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(928): App\Controllers\Auth->login()
+#1 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\jwt-ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\jwt-ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-06-24 01:11:58 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\jwt-ci\app\Controllers\Auth.php(82): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 82, Array)
+#1 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(928): App\Controllers\Auth->login()
+#2 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jwt-ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jwt-ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-06-24 01:12:07 --> Class 'Firebase\JWT\JWT' not found
+#0 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(928): App\Controllers\Auth->login()
+#1 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\jwt-ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\jwt-ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-06-24 01:12:36 --> Class 'Firebase\JWT\JWT' not found
+#0 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(928): App\Controllers\Auth->login()
+#1 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\jwt-ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\jwt-ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-06-24 01:13:11 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\jwt-ci\app\Controllers\Auth.php(82): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 82, Array)
+#1 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(928): App\Controllers\Auth->login()
+#2 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jwt-ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jwt-ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-06-24 01:23:07 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\jwt-ci\app\Controllers\Auth.php(82): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 82, Array)
+#1 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(928): App\Controllers\Auth->login()
+#2 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jwt-ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jwt-ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-06-24 01:23:55 --> Class 'Firebase\JWT\JWT' not found
+#0 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(928): App\Controllers\Auth->login()
+#1 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\xampp\htdocs\jwt-ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\jwt-ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\jwt-ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
